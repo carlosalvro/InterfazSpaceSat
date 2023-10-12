@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% block title %}  Dashboard  {% endblock %}
+{% block content %}
+
+      {%for e in elements%}
+
+        <div class="card card-content">
+          <h5>{{e.name}}</h5>
+          <span id={{e.short_name}}>0</span>
+        </div>
+
+      {% endfor%}
+
+{% endblock %}

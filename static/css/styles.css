@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Karla, sans-serif;
+  background-color: #ebeff2;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #fff;
+  height: 100vh;
+  position: fixed;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+  margin: 20px;
+}
+
+.menu {
+  margin-left:20px;
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+}
+.menu a:hover {
+  color: #71b6f9
+}
+.menu a i {
+  width: 20px;
+  margin-right: 9px;
+}
+
+.content {
+  margin-left: 250px;
+  background-color: #ebeff2;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.card-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 200px;
+  gap: 10px;
+}
+.card {
+  background-color: #9ba7b4;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+.card-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.card-buttons button{
+  border-radius: 100%;
+  border: none;
+  width: 100px;
+  height: 100px;
+}
+#button-start {
+  background-color: #32da32;
+}
+#button-start:active {
+  background-color: #24a124;
+}
+#button-stop {
+  background-color: #ff2222;
+}
+#button-stop:active {
+  background-color: #cc1c1c;
+}
+.card span {
+  font-size: xx-large;
+  margin: 20px 0;
+}
